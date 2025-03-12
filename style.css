@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+header {
+    background-color: #be00e8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #d864ff;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+.flavors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.flavor-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.flavor-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.flavor-card h3 {
+    margin: 10px 0;
+    color: #e23de7;
+}
+.flavor-card p {
+    background-color: rgb(238, 162, 255);
+    padding: 15px;
+    border-radius: 20px;
+}
+.flavor-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+footer {
+    background-color: #48006a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.btn-default { 
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+    background-color: rgb(243, 180, 255);
+}
